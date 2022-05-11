@@ -1,13 +1,3 @@
-
-helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation (feature-a)
-$ cd home
-
-helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (feature-a)
-$ git commit -m "front page animation"
-[feature-a 11847f8] front page animation
- 1 file changed, 20 insertions(+)       
- create mode 100644 intro.txt
-
 helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation (feature-a)
 $ cd home
 
@@ -97,3 +87,56 @@ helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (m
 $ git commit -m "about-me"
 [main 6d43011] about-me
  1 file changed, 59 deletions(-)
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git add .
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   log.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../Git/project/list.txt
+        modified:   assets/style/style.css
+
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git add .
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git commit -m "transitions"
+[main 0d7d74c] transitions
+ 2 files changed, 105 insertions(+)
+ create mode 100644 home/log.txt
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git add .
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git commit -m "transitions fixed"
+[main 0299df3] transitions fixed
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git add .
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   assets/style/style.css
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../Git/project/list.txt
+
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git push --set-upstream https://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@github.com/hamza-exe/home-page.git main
