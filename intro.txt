@@ -1,0 +1,20 @@
+   Git is a distributed version control system. Version control systems are a
+    category of software tools that help a software team manage changes to
+    source code over time. Version control software keeps track of every
+    modification to the code in a special kind of database. If a mistake is
+    made, developers can turn back the clock and compare earlier versions of
+    the code to help fix the mistake while minimizing disruption to all team
+    members
+
+
+        1. Store revisions in a project history in just one directory
+    2. Rewind to any revision in the project we wanted to
+    3. Work on new features without messing up the main codebase
+    4. Easily collaborate with other programmers
+
+ 
+
+  User configuration
+    git config --global user.name [name]
+    git config --global user.email [email]
+    git config --global init.defaultBranch main
